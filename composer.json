@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Tudublin\\": "src",
+            "TudublinTest\\": "tests"
+        }
+    },
+    "scripts": {
+        "unit": "php ./vendor/bin/phpunit"
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
